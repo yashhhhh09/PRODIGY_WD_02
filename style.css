@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background: #222;
+}
+
+.card {
+    width: 90%;
+    max-width: 450px;
+    background: linear-gradient(135deg, #00feba, #5b548a);
+    color: #fff;
+    margin: 100px auto 0;
+    text-align: center;
+    border-radius: 20px;
+    padding: 40px 60px;
+    border: 5px solid black;
+    transition: 0.1s; /* smoother transition for hover */
+}
+
+.card:hover {
+    transform: scale(1.07); /* add scaling effect */
+}
+
+.search{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.search input{
+    border: 0;
+    outline: 0;
+    background: #ebfffc;
+    color:black;
+    font-weight: bold;
+    padding: 10px 25px;
+    height: 60px;
+    border-radius: 30px;
+    flex: 1;
+    margin-right: 16px;
+    font-size: 18px;
+    border: 2px solid black;
+}
+
+.search button {
+    border: 0;
+    outline: 0;
+    display: flex;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0;
+    border: 2px solid black;
+}
+
+.search button img{
+    width: 65px;
+}
+button:hover{
+    background: wheat;
+}
+
+.weather-icon{
+    margin-top: 50px;
+    width: 170px;
+    margin-bottom: 20px;
+}
+
+.weather h1{
+    font-size: 60px;
+    font-weight: 500;
+    color: black;
+    
+}
+
+.humidity {
+    font-size: 28px;
+    margin-top: 19px;
+    margin-right: 20px; /* Space between humidity and wind */
+}
+
+.wind {
+    font-size: 28px;
+    margin-top: 19px;
+}
+
+
+.weather h2{
+    font-size: 40px;
+    font-weight: 400;
+    margin-top: 30px;
+    color: black;
+    font-weight: bold;
+}
+
+p{
+    color: black;
+    font-weight: bold;
+}
+
+
+.details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10px; /* Reduce padding */
+    margin-top: 0;
+    gap: 30px;
+    /* overflow: hidden; Ensures content doesn't overflow the card */
+    box-sizing: border-box; /* Ensures padding doesn’t cause overflow */
+}
+
+.col{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    text-align: left;
+    display: flex;
+    word-wrap: break-word;
+    overflow: hidden; /* Hide excess text if needed */
+    
+}
+/* p{
+    font-size: 20px;
+    font-weight: bolder;
+} */
+
+.col img{
+    width: 60px;
+    margin-right:10px ;
+    /* justify-content: space-between; */
+}
+
+.humidity, .wind{
+    font-size: 28px;
+    margin-top: 19px;
+    just
+}
